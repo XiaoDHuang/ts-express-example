@@ -36,6 +36,28 @@ import express from 'express
     npm i @types/http-errors @types/cookie-parser @types/morgan -D
 ```
 
+*  类型保护
+```javascript
+    // server.ts
+    add!.port
+```
+
+* 修改tsconfig.json
+```json
+{
+"outDir": "./dist",    
+}
+```
+
+* 安装shelljs copy views public 到 dist 
+* 编写script 安装 ts-node
+* tsconfig.json 排除 copyStatic.ts
+* 安装nodemon 更新代码 不用重启服务 并增加script脚本
+  
+## docker-compose 安装mysql 并初始化数据库 
+## 数据库的操作
+
+
 
 
 
