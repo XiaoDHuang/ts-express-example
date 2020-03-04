@@ -1,6 +1,8 @@
 -- 创建用户
 CREATE USER 'ts'@'%' IDENTIFIED BY 'typescript';
 
+ALTER USER 'ts'@'%' IDENTIFIED WITH mysql_native_password By 'typescript';
+
 -- 授权
 GRANT ALL PRIVILEGES ON *.* TO 'ts'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
