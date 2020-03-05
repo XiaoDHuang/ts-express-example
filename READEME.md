@@ -59,6 +59,8 @@ import express from 'express
 
 ## 待解决的问题
 [ ] docker-compose up 初始化数据库乱码的问题
+[ ] Node 与 前端 代码仓库管理
+[ ] docker 容器服务端与容器前端启动 部署、升级问题
 
 
 
