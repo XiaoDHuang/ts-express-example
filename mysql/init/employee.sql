@@ -57,6 +57,6 @@ VALUES
   ('小周', 1, '2019-07-01', 1);
 
 -- 查询所有
-SELECT employee.*, level.level, department.department
-FROM employee, level, department
-WHERE employee.levelId = level.id AND employee.departmentId = department.id;
+--SELECT employee.*, level.level, department.department
+--FROM employee, level, department
+--WHERE employee.levelId = level.id AND employee.departmentId = department.id;

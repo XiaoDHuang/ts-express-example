@@ -57,6 +57,9 @@ import express from 'express
 ## docker-compose 安装mysql 并初始化数据库 
 ## 数据库的操作
 
+## 待解决的问题
+[ ] docker-compose up 初始化数据库乱码的问题
+
 
 
 
